@@ -2,6 +2,7 @@
 
 # Ignorar carpetas de imágenes del proyecto
 imgs/
+proyecto_extraer_img_pdf/
 proyecto_extraer_img_pdf/imgs/
 
 # Extensiones de imagen
