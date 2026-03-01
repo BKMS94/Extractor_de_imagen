@@ -1,11 +1,11 @@
-# .gitignore - Ignorar imágenes y artefactos comunes
+# .gitignore - Ignorar archivos y carpetas innecesarios
 
-# Ignorar carpetas de imágenes del proyecto
+# ========== Carpetas de Imágenes ==========
 imgs/
-proyecto_extraer_img_pdf/
+output/
 proyecto_extraer_img_pdf/imgs/
 
-# Extensiones de imagen
+# ========== Extensiones de Imagen ==========
 *.png
 *.jpg
 *.jpeg
@@ -16,9 +16,61 @@ proyecto_extraer_img_pdf/imgs/
 *.webp
 *.heic
 
-# Artefactos comunes de Python (opcionales)
+# ========== Artefactos de Python ==========
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyc
+*.pyd
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ========== Entornos Virtuales ==========
 venv/
+env/
+ENV/
+.venv
+
+# ========== IDE y Editores ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vim/
+*.sublime-settings
+
+# ========== Sistema Operativo ==========
+.DS_Store
+Thumbs.db
 .env
+
+# ========== Logs ==========
+logs/
+*.log
+
+# ========== Compilados ==========
+*.o
+*.a
+*.exe
+*.dll
+*.so
+
+# ========== Directorios de Build ==========
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========== Archivos Temporales ==========
+*.tmp
+*.temp
+*.bak
+*~
