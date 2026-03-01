@@ -4,7 +4,6 @@ Interfaz gráfica principal de la aplicación
 
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
-from pathlib import Path
 from src.models.archivo import Archivo
 from src.services.pdf_extractor import PDFExtractor
 from config.settings import UI_CONFIG

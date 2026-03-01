@@ -2,7 +2,6 @@
 Configuración centralizada de la aplicación
 """
 
-import os
 from pathlib import Path
 
 # Directorio raíz del proyecto

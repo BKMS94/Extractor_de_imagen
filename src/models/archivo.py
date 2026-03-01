@@ -18,7 +18,7 @@ class Archivo:
     @staticmethod
     def _normalize_path(path: str) -> str:
         """Normaliza la ruta del archivo (convierte / a \\)"""
-        return path.replace("/", "\\\\") if path else None
+        return path.replace("/", "\\") if path else None
 
     def is_valid(self) -> bool:
         """Verifica si la ruta es válida"""

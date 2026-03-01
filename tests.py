@@ -22,7 +22,7 @@ def test_archivo_model():
 
     # Test 3: Validar normalización de ruta
     archivo_ruta = Archivo("C:/path/to/file.pdf")
-    assert "\\\\" in archivo_ruta.pdf_path, "Ruta debería estar normalizada"
+    assert "\\" in archivo_ruta.pdf_path, "Ruta debería estar normalizada"
     print("✓ Rutas normalizadas correctamente")
 
 
