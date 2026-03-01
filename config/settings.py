@@ -27,7 +27,3 @@ UI_CONFIG = {
 
 # Formatos de imagen soportados
 SUPPORTED_FORMATS = ["JPEG", "PNG", "BMP"]
-
-# Configuración de logs (opcional para futuro)
-LOG_DIR = BASE_DIR / "logs"
-LOG_DIR.mkdir(exist_ok=True)
